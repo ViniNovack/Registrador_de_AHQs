@@ -5,3 +5,11 @@ body{
     background-repeat: no-repeat; /* evita repetição */
     background-attachment: fixed; /* a imagem fica parada ao rolar a página */
 }
+
+.escudo{
+    position: fixed; /* acompanha a tela ao rolar */
+    left:50%;
+    z-index: 1; /* fica acima do fundo */
+    transform: translate(-50%);
+    top:-12%;
+}
