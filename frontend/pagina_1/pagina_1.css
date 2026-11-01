@@ -1,42 +1,7 @@
 body{
-    background-image: linear-gradient(180deg, rgba(0, 155, 245, 0.8), #012b66 100%);
-    background-repeat: no-repeat;
-    margin: 0;
-    min-height: 100vh;
-}
-
-.titulo{
-    text-align:center;
-    color:white;
-    font-size: 100px;
-    font-family: cursive;
-}
-
-.conteiner{
-    background-image: linear-gradient(0deg, rgba(0, 155, 245, 0.8), #012b66, 100%);
-    border: solid, white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 20px;
-    width: 20%;               /*largura da borda*/
-    color: white;
-}
-
-.conteiner:hover{
-    background-color:aqua;
-}
-
-.cont_image{
-    display: flex;
-    border:#012b66;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;               /* controla o deslocamento vertical */
-}
-
-.image{
-    width: 28%;
+    background-image:url("../Imagens/salao_da_tore.png");
+    background-size: cover; /* preenche toda a tela */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita repetição */
+    background-attachment: fixed; /* a imagem fica parada ao rolar a página */
 }
